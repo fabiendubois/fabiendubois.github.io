@@ -1,0 +1,166 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[fabien-dubois]{Fabien Dubois}
+
+\subsubsection[alternance-master-informatique-ipii]{Alternance Master
+Informatique IPII}
+
+\thinrule
+
+\startblockquote
+Moi ? 🙋🏻‍♂️ Passionné par l'informatique et les nouvelles technologies,
+partisan de l'innovation et de la digitalisation. Je veux
+{\bf {\em Apprendre}}, {\bf {\em Découvrir}} et {\bf {\em Évoluer}} avec
+vous ! 🙂
+\stopblockquote
+
+\thinrule
+
+\subsection[etudes]{Etudes}
+
+\startdescription{2016-2017}
+  {\bf Licence 3 Informatique Alternance} : Université de Valenciennes,
+  UVHC.
+
+  Licence 3 effectuée en alternance chez VINCI Construction France
+\stopdescription
+
+\startdescription{2014-2016}
+  {\bf DUT Informatique Alternance} : Université de Valenciennes,
+  antenne de Maubeuge.
+
+  DUT Informatique dont la deuxième année a été réalisé en alternance
+  chez VINCI Construction France
+\stopdescription
+
+\startdescription{2013-2014}
+  {\bf Bac Scientifique} : Lycée Louis Pasteur Somain
+\stopdescription
+
+\subsection[expériences-professionnelles]{Expériences Professionnelles}
+
+{\bf VINCI Construction France :}
+
+Technicien en alternance au service informatique :
+
+\startitemize
+\item
+  Mise en place d'une solution de gestion et de supervision du parc
+  informatique,
+  \useURL[url1][https://www.eyesofnetwork.com/?lang=fr][][Eyes Of
+  Network & GLPI]\from[url1]
+\item
+  Administration systèmes et réseaux
+\item
+  Support aux utilisateurs
+\stopitemize
+
+{\bf Animateur en centre de loisirs}
+
+Also with a short description.
+
+\subsection[expériences-techniques]{Expériences Techniques}
+
+\startdescription{Mise en place d'une solution de gestion et de
+supervision de parc informatique}
+  {\bf déploiment de la solution} Mise en place de la solution Open
+  Source contenant GLPI et Nagios
+
+  {\bf gestion du projet} Gestion du Projet
+\stopdescription
+
+\startdescription{Languages de Programmation}
+  {\bf first-lang:} Here, we have an itemization, where we only want to
+  add descriptions to the first few items, but still want to mention
+  some others together at the end. A format that works well here is a
+  description list where the first few items have their first word
+  emphasized, and the last item contains the final few emphasized terms.
+  Notice the reasonably nice page break in the pdf version, which
+  wouldn't happen if we generated the pdf via html.
+
+  {\bf second-lang:} Description of your experience with second-lang,
+  perhaps again including a
+  \useURL[url2][https://github.com/fabiendubois/][][link]\from[url2],
+  this time placing the url reference elsewhere in the document to
+  reduce clutter (see source file).
+
+  {\bf obscure-but-impressive-lang:} We both know this one's pushing it.
+
+  Basic knowledge of {\bf C}, {\bf x86 assembly}, {\bf forth},
+  {\bf Common Lisp}
+\stopdescription
+
+\thinrule
+
+\startblockquote
+\useURL[url3][mailto:fabiendubois2304@gmail.com][][fabiendubois2304@gmail.com]\from[url3]
+\stopblockquote
+
+\stoptext
