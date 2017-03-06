@@ -89,10 +89,10 @@ Languages de Programmation
 <img src="in.png" alt="Linkedin" style="width: 30px;" />
 </a>
 <a href="https://github.com/fabiendubois/"> 
-<img src="github.png" alt="Github" style="width: 30px;margin-left:8%;" />
+<img src="github.png" alt="Github" style="width: 30px;margin-left:8%;margin-right:8%" />
+</a>
+<a href="mailto:fabiendubois2304@gmail.com"> 
+<img src="mail.png" alt="Email" style="width: 30px;" />
 </a>
 </p>
 
-
-
-> <fabiendubois2304@gmail.com>
