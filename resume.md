@@ -35,52 +35,37 @@ Etudes
 Expériences Professionnelles
 ------------
 
-**VINCI Construction France :**
+**VINCI Construction France - Direction Délguée Nord-Picardie 2015-2017 :**
 
 Technicien en alternance au service informatique :
 
-* Mise en place d'une solution de gestion et de supervision du parc informatique, [Eyes Of Network & GLPI](https://www.eyesofnetwork.com/?lang=fr)
+####Mise en place d'une solution de gestion et de supervision du parc informatique, [Eyes Of Network & GLPI](https://www.eyesofnetwork.com/?lang=fr)
+
+* Planification et conduite du projet.
+
+* Encadrement d'un stagiaire pendant 6 mois.
+
+* Déploiment, configuration et maintenance des outils GLPI, FusionInventory et Nagios, inclus dans la suite EON.
+
+* Ecriture de scripts Shell et PHP pour GLPI ; Imporation commandes intranet, mails auto ...
+
+* Rédaction d'une documentation technique des scripts PHP avec [Apigen](http://www.apigen.org)
 
 * Administration systèmes et réseaux
 
 * Support aux utilisateurs
 
-**Animateur en centre de loisirs**
-
-Also with a short description.
-
 </br>
-
-Expériences Techniques
---------------------
-
-Mise en place d'une solution de gestion et de supervision de parc informatique
-:   **déploiment de la solution** Mise en place de la solution Open Source contenant GLPI et Nagios </br>
-
-:   **gestion du projet** Gestion du Projet
-
    
+Languages
+-------------------
+**C** 
 
-Languages de Programmation
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+**JAVA** 
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+**PHP**
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/fabiendubois/
+**SWIFT**
 
 ----
 
