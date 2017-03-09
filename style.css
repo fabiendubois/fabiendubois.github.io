@@ -1,6 +1,6 @@
 
 /* ________________________iPhone______________________________*/
-@media (min-width: 319px) and (max-width: 415px) {
+@media (max-width: 415px) {
     body {
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
@@ -14,8 +14,13 @@
     /* Title of the resume */
     h1 {
     font-size: 225%;
-    text-align:center;
-    margin-bottom:15px;
+    text-align:left;
+    margin-bottom:10px;
+    }
+
+    /* Blockquotes */
+    blockquote {
+    text-align: left
     }
 
     /* There is a bar just before each category */
@@ -28,6 +33,9 @@
     background-color: #7f8c8d;
     }
 
+    h3 {
+    text-align: left; 
+    }
 
     .date {
     visibility: hidden;
@@ -44,21 +52,16 @@
     dd {
     margin-left: 0%;
     }
-
  }
 
 
+
 /* ________________________BIG SCREEN______________________________*/
-@media (min-width: 416px) {
+@media (min-width: 850px) {
    body {
-    font-family: 'Open Sans';
     width: 850px;
     margin: auto;
-    color: black;
-    background: #ecf0f1;
-    padding: 10px 10px 10px 10px;
     }
-
 
     /* Title of the resume */
     h1 {
@@ -66,7 +69,11 @@
     text-align:center;
     margin-bottom:15px;
     }
-
+    
+    /* Blockquotes */
+    blockquote {
+    text-align: center
+    }
 
     /* There is a bar just before each category */
     h2:before {
@@ -78,6 +85,10 @@
     background-color: #16a085;
     }
 
+    h3 {
+    text-align: center; 
+    }
+    
     /* Definitions */
     dt {
     float: left;
@@ -95,33 +106,22 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*******************************************************************************************************************************************************************/
+/* toutes Tailles */
 a:link {
     color: #bdc3c7;
 }
 
-/* Blockquotes */
-blockquote {
-text-align: center
+/* Links */ 
+a {
+    text-decoration: none;
 }
 
+body {
+    font-family: 'Open Sans';
+    color: black;
+    background: #ecf0f1;
+    padding: 10px 10px 10px 10px;
+}
 
 /* Titles of categories */
 h2 {
@@ -129,25 +129,10 @@ h2 {
     color: #16a085;
 }
 
-
-h3 {
-    text-align: center;
-}
-
-
-
 p {
     margin-top:0;
     margin-bottom:7px;
 }
-
-
-/* Links */
-a {
-    text-decoration: none;
-    color:green;
-}
-
 
 /* Horizontal separators */
 hr {
@@ -155,8 +140,6 @@ hr {
     margin-bottom:5%;
     color: #34495e;
 }
-
-
 
 .title_school {
         font-size: 110%;
@@ -169,3 +152,8 @@ hr {
         color: #95a5a6;
 }
 
+.title_description {
+        text-align: left;
+        color: #1abc9c;
+
+}
