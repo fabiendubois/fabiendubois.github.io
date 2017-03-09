@@ -1,117 +1,108 @@
-
 /* ________________________iPhone______________________________*/
+
 @media (max-width: 415px) {
     body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
-    width: auto;
-    margin: auto;
-    color: black;
-    background: #ecf0f1;
-    padding: 10px 10px 10px 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 100%;
+        width: auto;
+        margin: auto;
+        color: black;
+        background-color: #ecf0f1;
+        padding: 10px 10px 10px 10px;
     }
-
     /* Title of the resume */
     h1 {
-    font-size: 225%;
-    text-align:left;
-    margin-bottom:10px;
+        font-size: 225%;
+        text-align: left;
+        margin-bottom: 10px;
     }
-
     /* Blockquotes */
     blockquote {
-    text-align: left
+        text-align: left
     }
-
     /* There is a bar just before each category */
     h2:before {
-    content: "";
-    display: inline-block;
-    margin-right:0%;
-    width: 0%;
-    height: 10px;
-    background-color: #7f8c8d;
+        content: "";
+        display: inline-block;
+        margin-right: 0%;
+        width: 0%;
+        height: 10px;
+        background-color: #7f8c8d;
     }
-
     h3 {
-    text-align: left; 
+        text-align: left;
     }
-
     .date {
-    visibility: hidden;
+        visibility: hidden;
     }
-
     /* Definitions */
     dt {
-    float: left;
-    clear: left;
-    width: 0%;
-    /*font-weight: bold;*/
+        float: left;
+        clear: left;
+        width: 0%;
+        /*font-weight: bold;*/
     }
-
     dd {
-    margin-left: 0%;
+        margin-left: 0%;
     }
- }
-
-
-
-/* ________________________BIG SCREEN______________________________*/
-@media (min-width: 850px) {
-   body {
-    width: 850px;
-    margin: auto;
-    }
-
-    /* Title of the resume */
-    h1 {
-    font-size: 250%;
-    text-align:center;
-    margin-bottom:15px;
-    }
-    
-    /* Blockquotes */
-    blockquote {
-    text-align: center
-    }
-
-    /* There is a bar just before each category */
-    h2:before {
-    content: "";
-    display: inline-block;
-    margin-right:1%;
-    width: 15%;
-    height: 10px;
-    background-color: #16a085;
-    }
-
-    h3 {
-    text-align: center; 
-    }
-    
-    /* Definitions */
-    dt {
-    float: left;
-    clear: left;
-    width: 17%;
-    /*font-weight: bold;*/
-    }
-
-    dd {
-    margin-left: 17%;
-    }
-
 }
 
 
+/* ________________________BIG SCREEN______________________________*/
+
+@media (min-width: 850px) {
+    body {
+        width: 850px;
+        margin: auto;
+        background-color: white;
+    }
+    /* Title of the resume */
+    h1 {
+        font-size: 250%;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    /* Blockquotes */
+    blockquote {
+        text-align: left
+    }
+    .date {
+        margin-left: 2%;
+    }
+    /* There is a bar just before each category */
+    h2:before {
+        content: "";
+        display: inline-block;
+        margin-right: 1%;
+        width: 15%;
+        height: 10px;
+        background-color: #16a085;
+    }
+    h3 {
+        text-align: left;
+    }
+    /* Definitions */
+    dt {
+        float: left;
+        clear: left;
+        width: 17%;
+        /*font-weight: bold;*/
+    }
+    dd {
+        margin-left: 1%;
+    }
+}
 
 
 /* toutes Tailles */
+
 a:link {
     color: #bdc3c7;
 }
 
-/* Links */ 
+
+/* Links */
+
 a {
     text-decoration: none;
 }
@@ -119,41 +110,49 @@ a {
 body {
     font-family: 'Open Sans';
     color: black;
-    background: #ecf0f1;
+    background-color: #ecf0f1;
     padding: 10px 10px 10px 10px;
 }
 
+
 /* Titles of categories */
+
 h2 {
     /* This is called "sectioncolor" in the ConTeXt stylesheet. */
     color: #16a085;
 }
 
 p {
-    margin-top:0;
-    margin-bottom:7px;
+    margin-top: 0;
+    margin-bottom: 7px;
 }
 
+
 /* Horizontal separators */
+
 hr {
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     color: #34495e;
 }
 
 .title_school {
-        font-size: 110%;
-        display: inline-block;
-        color: #1abc9c;
+    font-size: 110%;
+    display: inline-block;
+    color: #1abc9c;
 }
 
 .name_school {
-        display: inline-block;
-        color: #95a5a6;
+    display: inline-block;
+    color: #95a5a6;
 }
 
 .title_description {
-        text-align: left;
-        color: #1abc9c;
-
+    text-align: left;
+    color: #1abc9c;
 }
+
+#all {
+    background-color: white;
+}
+
