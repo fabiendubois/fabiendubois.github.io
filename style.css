@@ -6,7 +6,6 @@
         font-size: 100%;
         width: auto;
         margin: auto;
-        color: black;
         background-color: #ecf0f1;
         padding: 10px 10px 10px 10px;
     }
@@ -109,8 +108,8 @@ a {
 
 body {
     font-family: 'Open Sans';
-    color: black;
-    background-color: #ecf0f1;
+    color: #2c3e50;
+    background-color: white;
     padding: 10px 10px 10px 10px;
 }
 
@@ -156,3 +155,5 @@ hr {
     background-color: white;
 }
 
+
+/* TEST */
