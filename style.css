@@ -98,6 +98,10 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: #2c3e50;
+}
+
 body {
     font-family: 'Open Sans';
     color: #2c3e50;
