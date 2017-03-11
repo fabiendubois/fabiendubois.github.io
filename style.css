@@ -2,12 +2,9 @@
 
 @media (max-width: 415px) {
     body {
-        font-family: 'Open Sans', sans-serif;
         font-size: 100%;
         width: auto;
         margin: auto;
-        background-color: #ecf0f1;
-        padding: 10px 10px 10px 10px;
     }
     /* Title of the resume */
     h1 {
@@ -53,7 +50,6 @@
     body {
         width: 850px;
         margin: auto;
-        background-color: white;
     }
     /* Title of the resume */
     h1 {
@@ -93,7 +89,7 @@
 }
 
 
-/* Toutes les tailles
+/* Toutes les tailles ---------------------------------------- */
 
 
 /* Links */
