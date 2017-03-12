@@ -23,7 +23,6 @@
         margin-right: 0%;
         width: 0%;
         height: 10px;
-        background-color: #7f8c8d;
     }
     h3 {
         text-align: left;
@@ -146,10 +145,3 @@ hr {
     text-align: left;
     color: #1abc9c;
 }
-
-#all {
-    background-color: white;
-}
-
-
-/* TEST */
