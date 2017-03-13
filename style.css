@@ -12,10 +12,7 @@
         text-align: left;
         margin-bottom: 10px;
     }
-    /* Blockquotes */
-    blockquote {
-        text-align: left
-    }
+
     /* There is a bar just before each category */
     h2:before {
         content: "";
@@ -26,9 +23,6 @@
     }
     h3 {
         text-align: left;
-    }
-    .date {
-        visibility: hidden;
     }
     /* Definitions */
     dt {
@@ -56,13 +50,6 @@
         text-align: left;
         margin-bottom: 15px;
     }
-    /* Blockquotes */
-    blockquote {
-        text-align: left
-    }
-    .date {
-        margin-left: 2%;
-    }
     /* There is a bar just before each category */
     h2:before {
         content: "";
@@ -88,59 +75,44 @@
 }
 
 
-/* Toutes les tailles ---------------------------------------- */
-
-
-/* Links */
+/* ________________________SCREEN______________________________*/
 
 a {
     text-decoration: none;
 }
-
 a:link {
     color: #2c3e50;
 }
-
 body {
     font-family: 'Open Sans';
     color: #2c3e50;
     background-color: white;
     padding: 10px 10px 10px 10px;
 }
-
-
-/* Titles of categories */
-
 h2 {
-    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
     color: #16a085;
 }
-
 p {
     margin-top: 0;
     margin-bottom: 7px;
 }
-
-
-/* Horizontal separators */
-
+blockquote {
+    text-align: left
+}
 hr {
     margin-top: 5%;
     margin-bottom: 5%;
     color: #34495e;
 }
-
 .title_school {
     font-size: 110%;
     display: inline-block;
     color: #1abc9c;
 }
-
 .name_school {
     display: inline-block;
     color: #95a5a6;
 }
-
 .title_description {
     text-align: left;
     color: #1abc9c;
