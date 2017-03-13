@@ -62,16 +62,6 @@
     h3 {
         text-align: left;
     }
-    /* Definitions */
-    dt {
-        float: left;
-        clear: left;
-        width: 17%;
-        /*font-weight: bold;*/
-    }
-    dd {
-        margin-left: 1%;
-    }
 }
 
 
