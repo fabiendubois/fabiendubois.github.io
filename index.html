@@ -19,18 +19,6 @@
         <a href="#competences">Compétences</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-
-    <script>
-    function myFunction() 
-        {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
    
     <div id="all">
         <h2 id="qui_suis_je">QUI SUIS-JE ?</h2>
@@ -40,12 +28,13 @@
             <h1 id="fabien-dubois">Fabien DUBOIS</h1>
             <p class="title_school"><strong> Alternance <a href="http://www.rizomm.fr/fr/masters-du-rizomm-programmes-accueil/master-informatique-rizomm.asp" target="_blank" >Master Ingénierie de Projets Informatiques & Innovation</a></strong></p>
             </br>
-            <p> Passionné par les nouvelles technologies et l'innovation je souhaite poursuivre mon cursus universitaire en effectuant un Master en alternance. 
-                </br>
+            <p> 
+                Passionné par les nouvelles technologies et l'innovation je souhaite poursuivre mon cursus universitaire en effectuant un Master en alternance. 
                 </br> Je veux <strong>Apprendre</strong>,<strong>Découvrir</strong> et <strong>Évoluer</strong> avec vous !
             </p>
         </blockquote>
         </br>
+       
         <!-- FORMATION -->
         <h2 id="formation">FORMATION</h2>
 
@@ -144,13 +133,10 @@
 
             <p class="title_school"><strong>Animateur en Centre de Loisirs - Somain / Valenciennes</strong> : </p>
             <a class="name_school"> Juillet 2014 / Juillet - Aout 2015</a>
-           
             <ul><li><p>Animateur en centre de loisirs avec des enfants de 4 à 10 ans</p></li></ul>
-
         </blockquote>
-
-
-        <!-- LANGAGES -->
+        </br>
+        <!-- COMPETENCE -->
         <h2 id="competences">COMPÉTENCES</h2>
 
         <blockquote>
@@ -183,7 +169,7 @@
                 <strong>PHP : </strong>
                 <img src="/img/filled-circle.png" alt="point" style="width: 10px;margin-left:1%"/>
                 <img src="/img/filled-circle.png" alt="point" style="width: 10px;"/>
-                <img src="/img/empty-circle.png" alt="point" style="width: 10px;"/>
+                <img src="/img/half-filled-circle.png" alt="point" style="width: 10px;"/>
                 <img src="/img/empty-circle.png" alt="point" style="width: 10px;"/> 
                 <img src="/img/empty-circle.png" alt="point" style="width: 10px;"/>
             </p>
@@ -223,5 +209,17 @@
             </p>
     </div>
 </body>
+
+<script>
+    function myFunction() 
+        {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+</script>
 
 </html>
