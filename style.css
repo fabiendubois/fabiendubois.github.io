@@ -21,19 +21,30 @@
         width: 0%;
         height: 10px;
     }
+
     h3 {
         text-align: left;
     }
-    /* Definitions */
-    dt {
-        float: left;
-        clear: left;
-        width: 0%;
-        /*font-weight: bold;*/
-    }
-    dd {
-        margin-left: 0%;
-    }
+  
+/* -------- Menu Bar ------ */
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 
@@ -110,3 +121,23 @@ hr {
     text-align: left;
     color: #1abc9c;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #34495e;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 9px 12px;
+  text-decoration: none;
+  font-size: 100%;
+}
+.topnav a:hover {
+  color: #1abc9c;
+}
+.topnav .icon {
+  display: none;
+}
+

@@ -11,25 +11,43 @@
 
 </head>
 
-<body>
-    <div id="all">
+<body>    
+    <div class="topnav" id="myTopnav">
+        <a href="#qui_suis_je">Qui Suis-Je ?</a>
+        <a href="#formation">Formation</a>
+        <a href="#experience">Expérience</a>
+        <a href="#competences">Compétences</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
-        <h2 id="etudes">QUI SUIS-JE ?</h2>
+    <script>
+    function myFunction() 
+        {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+   
+    <div id="all">
+        <h2 id="qui_suis_je">QUI SUIS-JE ?</h2>
 
         <!-- Présentation -->
         <blockquote>
             <h1 id="fabien-dubois">Fabien DUBOIS</h1>
-            <p class="title_school"><strong> Alternance <a href="www.google.fr" >Master Informatique IPII</a></strong></p>
+            <p class="title_school"><strong> Alternance <a href="http://www.rizomm.fr/fr/masters-du-rizomm-programmes-accueil/master-informatique-rizomm.asp" target="_blank" >Master Ingénierie de Projets Informatiques & Innovation</a></strong></p>
             </br>
-            <p>
-                Je suis à la recherche d'un un poste d'alertance en informatique pour la période 2017 - 2019  </br>
-                Je souhaite poursuivre mes études en effectuant un Master Informatique en Alternance.</br> Je veux <strong>Apprendre</strong>,
-                <strong>Découvrir</strong> et <strong>Évoluer</strong> avec vous !
+            <p> Passionné par les nouvelles technologie et l'innovation je souhaite poursuivre mon cursus universitaire en effectuant un Master en alternance. 
+                </br>
+                </br> Je veux <strong>Apprendre</strong>,<strong>Découvrir</strong> et <strong>Évoluer</strong> avec vous !
             </p>
         </blockquote>
         </br>
         <!-- FORMATION -->
-        <h2 id="etudes">FORMATION</h2>
+        <h2 id="formation">FORMATION</h2>
 
         <blockquote>
                 <p class="title_school"><strong>Licence 3 Informatique Alternance</strong> : </p> <a class="name_school"> Université de Valenciennes, UVHC 2016 - 2017</a>
@@ -58,7 +76,7 @@
         </br>
 
         <!-- EXPÉRIENCE -->
-        <h2 id="expériences-professionnelles">EXPÉRIENCE</h2>
+        <h2 id="experience">EXPÉRIENCE</h2>
 
 
         <blockquote>
@@ -128,7 +146,7 @@
 
 
         <!-- LANGAGES -->
-        <h2 id="languages">COMPÉTENCES</h2>
+        <h2 id="competences">COMPÉTENCES</h2>
 
         <blockquote>
             <p>
@@ -193,10 +211,10 @@
 
             <hr/>
             <p style="text-align: center;">
-                <a href="https://www.linkedin.com/in/fabien-dubois/"> <img src="/img/linkedin.png" alt="Linkedin" style="width: 35px;" /> </a>
-                <a href="https://github.com/fabiendubois/"> <img src="/img/github.png" alt="Github" style="width: 35px;margin-left:10%;margin-right:10%" /> </a>
+                <a href="https://www.linkedin.com/in/fabien-dubois/" target="_blank"> <img src="/img/linkedin.png" alt="Linkedin" style="width: 35px;" /> </a>
+                <a href="https://github.com/fabiendubois/" target="_blank"> <img src="/img/github.png" alt="Github" style="width: 35px;margin-left:10%;margin-right:10%" /> </a>
                 <a href="/img/fabiendubois.pdf" title="Fabien DUBOIS CV PDF" download="/img/fabiendubois.pdf"> <img src="/img/pdf.png" alt="Pdf" style="width:35px;margin-right:10%" /> </a>
-                <a href="mailto:fabiendubois2304@gmail.com"> <img src="/img/mail.png" alt="Email" style="width: 35px;" /> </a>
+                <a href="mailto:fabiendubois2304@gmail.com" target="_blank"> <img src="/img/mail.png" alt="Email" style="width: 35px;" /> </a>
             </p>
     </div>
 </body>
