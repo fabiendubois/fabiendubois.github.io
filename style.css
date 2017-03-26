@@ -1,19 +1,24 @@
 /* ________________________iPhone______________________________*/
 
 @media (max-width: 415px) {
+
     body {
-        font-size: 110%;
+        width: 100%;
+        margin: auto;
+        padding: 0px 0px 0px 0px
+    }
+    #all {
         width: auto;
         margin: auto;
+        padding: 0px 8px 0px 8px
+
     }
-    /* Title of the resume */
     h1 {
         font-size: 225%;
         text-align: left;
         margin-bottom: 10px;
     }
 
-    /* There is a bar just before each category */
     h2:before {
         content: "";
         display: inline-block;
@@ -55,13 +60,11 @@
         width: 850px;
         margin: auto;
     }
-    /* Title of the resume */
     h1 {
         font-size: 250%;
         text-align: left;
         margin-bottom: 15px;
     }
-    /* There is a bar just before each category */
     h2:before {
         content: "";
         display: inline-block;
@@ -91,7 +94,6 @@ body {
     font-family: 'Open Sans';
     color: #2c3e50;
     background-color: white;
-    padding: 10px 10px 10px 10px;
 }
 h2 {
     color: #16a085;
@@ -121,16 +123,20 @@ hr {
     text-align: left;
     color: #1abc9c;
 }
+
+/* -------- Menu Bar ------ */
 .topnav {
   overflow: hidden;
   background-color: #34495e;
+  border-radius: 0px 0px 0px 0px;
+
 }
 .topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 9px 12px;
+  padding: 12px 12px;
   text-decoration: none;
   font-size: 100%;
 }
@@ -140,4 +146,5 @@ hr {
 .topnav .icon {
   display: none;
 }
+
 
